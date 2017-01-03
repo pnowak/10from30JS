@@ -1,0 +1,50 @@
+html {
+    box-sizing: border-box;
+    background: #f1f1f1;
+    color: #808080;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.site-wrap {
+	width: 737px;
+	margin: 10px auto;
+	clear: both;
+}
+
+header {
+	width: 180px;
+	display: table-cell;
+}
+
+h1 {
+    margin-top: 0;
+    color: #ff4000;
+}
+
+nav {
+	height: 82px;
+}
+
+ul {
+	list-style: none;
+	padding-left: 30%;
+}
+
+li {
+	display: table-cell;
+    padding-right: 20px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+a {
+	color: #11679a;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ff4000;
+	text-decoration: line-through;
+}
