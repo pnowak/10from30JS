@@ -15,7 +15,7 @@ html {
 
 header {
 	width: 180px;
-	display: table-cell;
+	float: left;
 }
 
 h1 {
@@ -29,11 +29,11 @@ nav {
 
 ul {
 	list-style: none;
-	padding-left: 30%;
+	padding-left: 50%;
 }
 
 li {
-	display: table-cell;
+	float: left;
     padding-right: 20px;
     font-size: 28px;
     font-weight: 700;
@@ -47,4 +47,8 @@ a {
 a:hover {
 	color: #ff4000;
 	text-decoration: line-through;
+}
+
+.fixed {
+	position: fixed;
 }
